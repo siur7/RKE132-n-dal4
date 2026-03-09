@@ -1,0 +1,10 @@
+spent = int(input( "Kui palju raha sa meie juures kulutasid? "))
+if spent < 100:
+    print("Sinu staatus on Tavaline klient.")
+elif spent >= 100 and spent < 500:
+    print("Sinu staatus on Bronze.")
+elif spent >= 500 and spent < 1000:
+    print("Sinu staatus on Silver.")
+elif spent >= 1000 and spent < 5000:
+    print("Sinu staatus on Gold.")
+else:    print("Sinu staatus on Platinum.")
